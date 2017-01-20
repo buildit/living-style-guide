@@ -1,0 +1,26 @@
+@import "menu-category-item";
+@import "menu-category-list";
+@import "menu-item";
+@import "menu-item-list";
+@import "nav";
+@import "quantity-picker";
+@import "taco-crumbs";
+@import "view-title";
+
+// TODO: Make Button a component
+.button {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  background: black;
+  &:hover {
+    background: red;
+  }
+  a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

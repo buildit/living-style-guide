@@ -1,0 +1,12 @@
+.menu {
+  .menu-category-picker {
+    .menu-category {
+      color: gray;
+      padding: 1rem;
+
+      &.active {
+        color: white;
+      }
+    }
+  }
+}

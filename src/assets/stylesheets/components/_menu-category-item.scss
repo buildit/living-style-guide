@@ -1,0 +1,20 @@
+.menu-category-item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  align-items: center;
+  background: gray;
+  color: black;
+
+  .category-name {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  &.reverse-type {
+    background: black;
+    color: white;
+  }
+
+}

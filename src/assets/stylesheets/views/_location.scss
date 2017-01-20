@@ -1,0 +1,12 @@
+.location {
+  .map-type-picker {
+    .map-type {
+      color: gray;
+      padding: 1rem;
+
+      &.active {
+        color: red;
+      }
+    }
+  }
+}
