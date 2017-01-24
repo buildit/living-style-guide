@@ -10,7 +10,10 @@ export default class Main extends Component {
         <h1>Style Guide</h1>
         <h2>MenuItem</h2>
         <div className="iphone6-container">
-          <MenuItem />
+          <MenuItem
+            name="Taco yum"
+            price="1.99"
+          />
         </div>
       </div>
     )
