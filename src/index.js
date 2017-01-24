@@ -1,7 +1,7 @@
 import './assets/stylesheets/main.scss';
 import React from 'react';
 import { render } from 'react-dom';
-import Landing from './views/Landing';
+import Main from './views/Main';
 import { Router, Route, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 
@@ -11,7 +11,7 @@ const store = createStore();
 render((
   <Provider store={store}>
     <Router history={hashHistory}>
-      <Route path="/" component={Landing}/>
+      <Route path="/" component={Main}/>
     </Router>
   </Provider>
 ), document.getElementById('root'))

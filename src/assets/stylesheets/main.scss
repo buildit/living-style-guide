@@ -1,5 +1,2 @@
-@import "bourbon/bourbon";
-@import "neat/neat";
-@import "taco-style/main";
-@import "views/main";
-@import "components/main";
+@import "~taco-style";
+@import "./style-guide";
