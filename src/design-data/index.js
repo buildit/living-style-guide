@@ -1,26 +1,10 @@
 import React from 'react'
-import QuantityPicker from '../components/QuantityPicker'
-import MenuItem from '../components/MenuItem'
+import quantityPickerData from './quantity-picker'
+import menuItemData from './menu-item'
 
 const components = [
-  {
-    name: "QuantityPicker",
-    component: (
-      <QuantityPicker
-        quantity={1}
-      />
-    ),
-  },
-  {
-    name: "MenuItem",
-    component: (
-      <MenuItem
-        name="Funny Taco Things"
-        quantity={1}
-        price="2.99"
-      />
-    ),
-  },
+  quantityPickerData,
+  menuItemData,
 ]
 
 export default components
