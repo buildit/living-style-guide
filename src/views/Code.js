@@ -17,7 +17,7 @@ const Code = React.createClass({
             this.setState({ isCodeSnippetVisible: !this.state.isCodeSnippetVisible })
           }}
           >code</span>
-        <div className={codeSnippetClass}>{codeSnippet}</div>
+        <pre className={codeSnippetClass}>{codeSnippet}</pre>
         </div>
     )
   }

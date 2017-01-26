@@ -10,9 +10,6 @@ const components = [
         quantity={1}
       />
     ),
-    codeSnippet: `<QuantityPicker
-
-    />`,
   },
   {
     name: "MenuItem",
@@ -23,9 +20,6 @@ const components = [
         price="2.99"
       />
     ),
-    codeSnippet: `<MenuItem
-
-    />`,
   },
 ]
 

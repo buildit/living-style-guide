@@ -1,5 +1,18 @@
 import React from 'react'
 import Code from './Code.js'
+import jsxToString from 'jsx-to-string'
+
+const formatJSX = component => {
+  const codeSnippet = jsxToString(component)
+  const codeSnippetElements =
+    jsxToString(component)
+      .replace(/'/g,'"')
+      .match(/(?:[^\s"]+|"[^"]*")+/g)
+
+  const lastLine = codeSnippetElements.pop()
+  const codeSnippetFormatted = codeSnippetElements.join('\n  ') + '\n' + lastLine
+  return codeSnippetFormatted
+}
 
 const Component = React.createClass({
   getInitialState: function() {
@@ -11,8 +24,9 @@ const Component = React.createClass({
       name,
       component,
       code,
-      codeSnippet,
     } = this.props;
+
+    const codeSnippet = formatJSX(component)
 
     return (
       <div className="component">
