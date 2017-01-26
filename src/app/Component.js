@@ -24,6 +24,9 @@ const Component = React.createClass({
       name,
       component,
       code,
+      description,
+      children,
+      parents,
     } = this.props;
 
     const codeSnippet = formatJSX(component)
@@ -32,10 +35,25 @@ const Component = React.createClass({
       <div className="component">
         <h2 className="component-piece">{name}</h2>
         <div className="component-piece">
+          { description }
+        </div>
+        <div className="component-piece">
           { component }
         </div>
         <div className="component-piece">
           <Code codeSnippet={codeSnippet} />
+        </div>
+        <div className="component-piece">
+          Child elements:
+          { children.map((element, index) => (
+            <span>{element}</span>
+          ))}
+        </div>
+        <div className="component-piece">
+          Parent elements:
+          { parents.map((element, index) => (
+            <span>{element}</span>
+          ))}
         </div>
       </div>
     )

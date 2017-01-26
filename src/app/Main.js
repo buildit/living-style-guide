@@ -11,6 +11,9 @@ const components = designData.map((component, index) => (
     name={component.name}
     component={component.component}
     codeSnippet={component.codeSnippet}
+    description={component.description}
+    children={component.context.children}
+    parents={component.context.parents}
   />
 ))
 
