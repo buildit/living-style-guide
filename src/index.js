@@ -1,7 +1,7 @@
 import './assets/stylesheets/main.scss';
 import React from 'react';
 import { render } from 'react-dom';
-import Main from './views/Main';
+import Main from './app/Main';
 import { Router, Route, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 
