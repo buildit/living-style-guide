@@ -19,7 +19,6 @@ export default class Main extends React.Component {
     return(
       <div className="view landing">
         <h1>Style Guide</h1>
-        <h2>MenuItem</h2>
         <div className="iphone6-container">
           { components }
         </div>

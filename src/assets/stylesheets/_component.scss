@@ -1,4 +1,7 @@
 .component {
+  h2 {
+    border-bottom: 2px solid #CCC;
+  }
   .component-piece+.component-piece {
     margin-top: 1rem;
   }
