@@ -40,7 +40,8 @@
     "enzyme": "^2.7.0",
     "esdoc": "^0.5.2",
     "mocha": "^3.2.0",
-    "taco-style": "0.0.7",
+    "nacho-style": "0.0.1",
+    "taco-style": "0.0.8",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-dev-server": "^1.14.1",
     "webpack-hot-middleware": "^2.10.0"

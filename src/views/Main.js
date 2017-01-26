@@ -1,19 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import MenuItem from '../components/MenuItem';
+import designData from '../design-data';
+import Component from './Component';
 
-export default class Main extends Component {
+const components = designData.map((component, index) => (
+  <Component
+    key={`component-${index}`}
+    name={component.name}
+    component={component.component}
+    codeSnippet={component.codeSnippet}
+  />
+))
+
+export default class Main extends React.Component {
   render() {
+    console.log(designData);
     return(
       <div className="view landing">
         <h1>Style Guide</h1>
         <h2>MenuItem</h2>
         <div className="iphone6-container">
-          <MenuItem
-            name="Taco yum"
-            price="1.99"
-          />
+          { components }
         </div>
       </div>
     )
