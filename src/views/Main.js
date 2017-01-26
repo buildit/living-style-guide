@@ -16,7 +16,6 @@ const components = designData.map((component, index) => (
 
 export default class Main extends React.Component {
   render() {
-    console.log(designData);
     return(
       <div className="view landing">
         <h1>Style Guide</h1>

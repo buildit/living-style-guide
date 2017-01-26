@@ -15,10 +15,14 @@ const Component = React.createClass({
     } = this.props;
 
     return (
-      <div>
-        <h2>{name}</h2>
-        { component }
-        <Code codeSnippet={codeSnippet} />
+      <div className="component">
+        <h2 className="component-piece">{name}</h2>
+        <div className="component-piece">
+          { component }
+        </div>
+        <div className="component-piece">
+          <Code codeSnippet={codeSnippet} />
+        </div>
       </div>
     )
   }
