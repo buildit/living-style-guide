@@ -21,7 +21,10 @@ export default class Main extends React.Component {
   render() {
     return(
       <div className="view landing">
-        <h1>Style Guide</h1>
+        <header>
+          <h1 className="title">Living Style Guide: Project Taco</h1>
+          <p className="description">An always-up-to-date catalog of the UI components used by Project Taco.</p>
+        </header>
         <div className="iphone6-container">
           { components }
         </div>

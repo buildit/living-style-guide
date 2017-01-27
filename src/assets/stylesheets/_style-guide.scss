@@ -1,6 +1,25 @@
 // Styles for this guide
 
-.iphone6-container {
-  width: 375px;
-  outline: 1px dotted pink;
+body {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  .iphone6-container {
+    width: 375px;
+  }
+
+  header {
+    margin-bottom: 3rem;
+    .title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .description {
+    color: #AAA;
+  }
+  .component {
+    margin-bottom: 3rem;
+  }
 }

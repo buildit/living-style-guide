@@ -34,14 +34,11 @@ const Component = React.createClass({
     return (
       <div className="component">
         <h2 className="component-piece">{name}</h2>
-        <div className="component-piece">
+        <div className="component-piece description">
           { description }
         </div>
         <div className="component-piece">
           { component }
-        </div>
-        <div className="component-piece">
-          <Code codeSnippet={codeSnippet} />
         </div>
         <div className="component-piece">
           Child elements:
@@ -54,6 +51,9 @@ const Component = React.createClass({
           { parents.map((element, index) => (
             <span>{element}</span>
           ))}
+        </div>
+        <div className="component-piece">
+          <Code codeSnippet={codeSnippet} />
         </div>
       </div>
     )
