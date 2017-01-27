@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PlaceholderImage from './PlaceholderImage';
-import QuantityPicker from './QuantityPicker';
+import PlaceholderImage from 'taco-components/components/1-Atoms/PlaceholderImage';
+import QuantityPicker from 'taco-components/components/1-Atoms/QuantityPicker';
 
 const MenuItem = ({ name, price, quantity = 0 }) => (
     <div className="menu-item">
