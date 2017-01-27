@@ -1,5 +1,5 @@
 {
-  "name": "Living Style Guide",
+  "name": "project-taco-living-style-guide",
   "version": "0.2.0",
   "description": "An always-up-to-date catalog of the UI components used by Project Taco.",
   "main": "server.js",
@@ -42,6 +42,7 @@
     "jsx-to-string": "^1.0.0",
     "mocha": "^3.2.0",
     "nacho-style": "0.0.1",
+    "taco-components": "0.0.4",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-dev-server": "^1.14.1",
     "webpack-hot-middleware": "^2.10.0"
