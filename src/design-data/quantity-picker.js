@@ -1,5 +1,5 @@
 import React from 'react'
-import QuantityPicker from '../components/QuantityPicker'
+import QuantityPicker from 'taco-components/components/1-Atoms/QuantityPicker';
 
 const quantityPickerData = {
     name: "QuantityPicker",

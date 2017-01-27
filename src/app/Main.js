@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
-import MenuItem from '../components/MenuItem';
 import designData from '../design-data';
 import Component from './Component';
 
