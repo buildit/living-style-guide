@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var path = require('path');
+var fs = require('fs');
 
 module.exports = {
   entry: [
@@ -7,24 +8,30 @@ module.exports = {
   ],
   module: {
     loaders: [
-      { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/, query: {
-          presets: ['es2015', 'react'],
-          plugins: ['transform-runtime'],
+      { test: /(\.jsx|\.js)$/,
+        loader: 'babel-loader',
+        include: [
+          path.resolve(__dirname, "src"),
+          fs.realpathSync(__dirname + "/node_modules/taco-components"),
+        ],
+        query: {
+          presets: ['es2015', 'react'].map(function(name) { return require.resolve("babel-preset-"+name) }),
+          plugins: ['transform-runtime'].map(function(name) { return require.resolve("babel-plugin-"+name) }),
         }, },
       { test: /\.s?css$/, loader: 'style!css!sass' },
       { test: /\.json$/, loader: 'json-loader' },
-      { test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-        loader: 'file-loader?name=fonts/[name].[ext]' },
     ]
   },
   resolve: {
-    extensions: ['', '.js'],
+    extensions: ['', '.js', '.jsx'],
     alias: {
       actions: path.join(__dirname, 'src/actions'),
       notifications: path.join(__dirname, 'src/notifications'),
       sagas: path.join(__dirname, 'src/sagas'),
-    }
+    },
+    fallback: path.join(__dirname, "node_modules"),
   },
+  resolveLoader: { fallback: path.join(__dirname, "node_modules") },
   output: {
     path: path.join(__dirname, '/dist'),
     publicPath: '/',
