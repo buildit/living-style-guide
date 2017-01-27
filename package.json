@@ -1,7 +1,7 @@
 {
-  "name": "Taco-Bell",
+  "name": "Living Style Guide",
   "version": "0.2.0",
-  "description": "an example",
+  "description": "An always-up-to-date catalog of the UI components used by Project Taco.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
