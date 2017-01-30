@@ -9,7 +9,7 @@ const viewTitleData = {
       />
     ),
     type: "",
-    description: "Description for ViewTitle",
+    description: "A header component used on some page views.",
     reactComponent: "ViewTitle",
     reactComponentLibrary: "TacoComponents",
     context: {

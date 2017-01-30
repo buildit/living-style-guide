@@ -10,15 +10,15 @@ import tacoCrumbsData from './taco-crumbs'
 import viewTitleData from './view-title'
 
 const components = [
-  menuCategoryItemData,
-  menuCategoryListData,
-  menuItemListData,
-  menuItemData,
   navData,
-  placeHolderImageData,
-  quantityPickerData,
   tacoCrumbsData,
   viewTitleData,
+  menuCategoryItemData,
+  menuCategoryListData,
+  quantityPickerData,
+  menuItemData,
+  menuItemListData,
+  placeHolderImageData,
   // button, // Not yet added to taco-components library
 ]
 
