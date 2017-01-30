@@ -1,21 +1,23 @@
 import React from 'react'
-import quantityPickerData from './quantity-picker'
+import menuCategoryItemData from './menu-category-item'
+import menuCategoryListData from './menu-category-list'
+import menuItemListData from './menu-item-list'
 import menuItemData from './menu-item'
-// ViewTitle
+import navData from './nav'
+import placeHolderImageData from './placeholder-image'
+import quantityPickerData from './quantity-picker'
+import tacoCrumbsData from './taco-crumbs'
 import viewTitleData from './view-title'
 
-// MenuItemList
-// Nav
-// MenuCategoryList
-// MenuCategoryItem
-// PlaceHolderImage
-// QuantityPicker
-// TacoCrumbs
-// Button
-
 const components = [
-  quantityPickerData,
+  menuCategoryItemData,
+  menuCategoryListData,
+  menuItemListData,
   menuItemData,
+  navData,
+  placeHolderImageData,
+  quantityPickerData,
+  tacoCrumbsData,
   viewTitleData,
   // button, // Not yet added to taco-components library
 ]
