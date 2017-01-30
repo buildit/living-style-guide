@@ -11,14 +11,14 @@ import viewTitleData from './view-title'
 
 const components = [
   navData,
-  // tacoCrumbsData, // not present in taco-style
-  // viewTitleData, // okay
-  // menuCategoryItemData, // not present
-  // menuCategoryListData, // class name had typo in taco-style. Fixed, check if it worked.
-  // quantityPickerData, // okay
-  // menuItemData, // Some styles coming through. Not all.
-  // menuItemListData, // not present
-  // placeHolderImageData, // not present
+  tacoCrumbsData, // not present in taco-style
+  viewTitleData, // okay
+  menuCategoryItemData, // not present
+  menuCategoryListData, // class name had typo in taco-style. Fixed, check if it worked.
+  quantityPickerData, // okay
+  menuItemData, // Some styles coming through. Not all.
+  menuItemListData, // not present
+  placeHolderImageData, // not present
   // button, // Not yet added to taco-components library
 ]
 

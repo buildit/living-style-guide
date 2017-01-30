@@ -33,26 +33,26 @@ const Component = React.createClass({
 
     return (
       <div className="component">
-        <h2 className="component-piece">{name}</h2>
-        <div className="component-piece description">
+        <h2 className="style-guide component-piece">{name}</h2>
+        <div className="style-guide component-piece description">
           { description }
         </div>
         <div className="component-piece">
           { component }
         </div>
-        <div className="component-piece">
-          Child elements:
+        <div className="style-guide component-piece element-list">
+          <span className="label">Child elements:</span>
           { children.map((element, index) => (
-            <span>{element}</span>
+            <span className="element">{element}</span>
           ))}
         </div>
-        <div className="component-piece">
-          Parent elements:
+        <div className="style-guide component-piece element-list">
+          <span className="label">Parent elements:</span>
           { parents.map((element, index) => (
-            <span>{element}</span>
+            <span className="element">{element}</span>
           ))}
         </div>
-        <div className="component-piece">
+        <div className="style-guide component-piece">
           <Code codeSnippet={codeSnippet} />
         </div>
       </div>

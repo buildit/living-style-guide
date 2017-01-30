@@ -11,8 +11,8 @@ const menuItemData = {
     reactComponent: "Nav",
     reactComponentLibrary: "TacoComponents",
     context: {
-      children: [],
-      parents: []
+      children: ["one", "two", "three"],
+      parents: ["one", "two"]
     },
     style: {}
   }
