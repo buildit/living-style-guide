@@ -2,24 +2,16 @@ import React from 'react';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import designData from '../design-data';
-import Component from './Component';
-
-const components =
-  designData
-    .filter(component => component.approved)
-    .map((component, index) => (
-      <Component
-        key={`component-${index}`}
-        name={component.name}
-        component={component.component}
-        codeSnippet={component.codeSnippet}
-        description={component.description}
-        children={component.context.children}
-        parents={component.context.parents}
-      />)
-    )
+import ComponentList from './ComponentList';
 
 export default class Main extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      filterByApproved: false
+    }
+  }
+
   render() {
     return(
       <div className="view landing">
@@ -28,7 +20,10 @@ export default class Main extends React.Component {
           <p className="style-guide description">An always-up-to-date catalog of the UI components used by Project Taco.</p>
         </header>
         <div className="iphone6-container">
-          { components }
+          <ComponentList
+            designData={designData}
+            filterByApproved={this.state.filterByApproved}
+          />
         </div>
       </div>
     )
