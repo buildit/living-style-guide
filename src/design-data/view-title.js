@@ -16,7 +16,8 @@ const viewTitleData = {
       children: [],
       parents: []
     },
-    style: {}
+    style: {},
+    approved: false,
   }
 
 export default viewTitleData

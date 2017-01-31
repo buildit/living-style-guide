@@ -14,7 +14,8 @@ const menuCategoryListData = {
       children: ["MenuCategoryItem"],
       parents: []
     },
-    style: {}
+    style: {},
+    approved: false,
   }
 
 export default menuCategoryListData

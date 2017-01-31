@@ -4,17 +4,20 @@ import { connect } from 'react-redux';
 import designData from '../design-data';
 import Component from './Component';
 
-const components = designData.map((component, index) => (
-  <Component
-    key={`component-${index}`}
-    name={component.name}
-    component={component.component}
-    codeSnippet={component.codeSnippet}
-    description={component.description}
-    children={component.context.children}
-    parents={component.context.parents}
-  />
-))
+const components =
+  designData
+    .filter(component => component.approved)
+    .map((component, index) => (
+      <Component
+        key={`component-${index}`}
+        name={component.name}
+        component={component.component}
+        codeSnippet={component.codeSnippet}
+        description={component.description}
+        children={component.context.children}
+        parents={component.context.parents}
+      />)
+    )
 
 export default class Main extends React.Component {
   render() {

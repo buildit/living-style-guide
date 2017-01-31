@@ -14,7 +14,8 @@ const menuItemData = {
       children: ["one", "two", "three"],
       parents: ["one", "two"]
     },
-    style: {}
+    style: {},
+    approved: false,
   }
 
 export default menuItemData

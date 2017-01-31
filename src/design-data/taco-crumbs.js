@@ -16,7 +16,8 @@ const tacoCrumbsData = {
       children: [],
       parents: []
     },
-    style: {}
+    style: {},
+    approved: false,
   }
 
 export default tacoCrumbsData

@@ -20,7 +20,8 @@ const menuItemListData = {
       children: ["MenuItem"],
       parents: []
     },
-    style: {}
+    style: {},
+    approved: false,
   }
 
 export default menuItemListData

@@ -18,7 +18,8 @@ const placeholderImageData = {
       children: [],
       parents: []
     },
-    style: {}
+    style: {},
+    approved: false,
   }
 
 export default placeholderImageData

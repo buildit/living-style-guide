@@ -18,7 +18,8 @@ const menuItemData = {
       children: ["QuantityPicker"],
       parents: ["MenuItemList"]
     },
-    style: {}
+    style: {},
+    approved: true,
   }
 
 export default menuItemData

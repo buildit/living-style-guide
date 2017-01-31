@@ -16,7 +16,8 @@ const quantityPickerData = {
       children: [],
       parents: ["MenuItem"]
     },
-    style: {}
+    style: {},
+    approved: false,
   }
 
 export default quantityPickerData
