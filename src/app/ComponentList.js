@@ -5,7 +5,10 @@ const ComponentList = ({designData, filterByApproved}) => (
   <div className="component-list">
     {
       designData
-      .filter(component => component.approved)
+      .filter(component => {
+        if (filterByApproved) return component.approved
+        return true
+      })
       .map((component, index) => (
         <Component
           key={`component-${index}`}
