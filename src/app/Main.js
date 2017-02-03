@@ -15,12 +15,10 @@ export default class Main extends React.Component {
   render() {
     return(
       <div className="view landing">
-
         <header className="style-guide introduction">
           <h1 className="style-guide title">Living Style Guide: Project Taco</h1>
           <p className="style-guide description">An always-up-to-date catalog of the UI components used by Project Taco.</p>
         </header>
-
         <div className="style-guide filters">
           <button
             className="filter-button"
