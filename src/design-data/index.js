@@ -8,9 +8,11 @@ import placeHolderImageData from './placeholder-image'
 import quantityPickerData from './quantity-picker'
 import tacoCrumbsData from './taco-crumbs'
 import viewTitleData from './view-title'
+import viewButtonPink from './button-large-pink'
 
 const components = [
   navData,
+  viewButtonPink,
   tacoCrumbsData, // not present in taco-style
   viewTitleData, // okay
   menuCategoryItemData, // not present
