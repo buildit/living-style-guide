@@ -8,6 +8,7 @@ const menuItemData = {
         name="Funny Taco Things"
         quantity={1}
         price="2.99"
+        imageUrl="../assets/images/image-1.png"
       />
     ),
     type: "",
