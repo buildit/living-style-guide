@@ -6,6 +6,7 @@ const viewButtonPink = {
     component: (
       <ButtonLargePink
         ButtonText="New Order"
+        ButtonLink="/"
       />
     ),
     type: "",
