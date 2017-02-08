@@ -1,7 +1,7 @@
 import React from 'react'
 import ButtonLargeWhite from 'taco-components/components/1-Atoms/ButtonLargeWhite';
 
-const viewButtonPink = {
+const viewButtonWhite = {
     name: "ButtonLargeWhite",
     component: (
       <ButtonLargeWhite
