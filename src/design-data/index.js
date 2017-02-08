@@ -25,7 +25,6 @@ const components = [
   menuItemListData, // not present
   viewLocationHeader,
   placeHolderImageData, // not present
-  // button, // Not yet added to taco-components library
 ]
 
 export default components

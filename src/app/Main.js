@@ -20,7 +20,7 @@ export default class Main extends React.Component {
           <p className="style-guide description">An always-up-to-date catalog of the UI components used by Project Taco.</p>
         </header>
         <div className="style-guide filters">
-          <label>Component type: </label>
+          <label>Component type:  </label>
           <input
             type="text"
             placeholder="navigation, menu, etc..."
