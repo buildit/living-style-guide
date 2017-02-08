@@ -9,7 +9,7 @@ const viewButtonWhite = {
         ButtonLink="/"
       />
     ),
-    type: "",
+    type: "button",
     description: "A large white button used mostly for the landing page",
     reactComponent: "ButtonLargeWhite",
     reactComponentLibrary: "TacoComponents",

@@ -9,7 +9,7 @@ const viewButtonPink = {
         ButtonLink="/"
       />
     ),
-    type: "",
+    type: "button",
     description: "A large pink button used mostly for the landing page",
     reactComponent: "ButtonLargePink",
     reactComponentLibrary: "TacoComponents",

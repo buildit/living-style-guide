@@ -9,7 +9,7 @@ const viewButtonSmall = {
         ButtonLink="/"
       />
     ),
-    type: "",
+    type: "button",
     description: "A small action button used on most of the views",
     reactComponent: "ButtonSmall",
     reactComponentLibrary: "TacoComponents",
