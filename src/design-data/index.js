@@ -7,14 +7,14 @@ import navData from './nav'
 import placeHolderImageData from './placeholder-image'
 import quantityPickerData from './quantity-picker'
 import tacoCrumbsData from './taco-crumbs'
-import viewTitleData from './view-title'
 import viewButtonPink from './button-large-pink'
+import viewButtonWhite from './button-large-white'
 
 const components = [
   navData,
   viewButtonPink,
+  viewButtonWhite,
   tacoCrumbsData, // not present in taco-style
-  viewTitleData, // okay
   menuCategoryItemData, // not present
   menuCategoryListData, // class name had typo in taco-style. Fixed, check if it worked.
   quantityPickerData, // okay
