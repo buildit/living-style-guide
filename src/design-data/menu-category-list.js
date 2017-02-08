@@ -6,7 +6,7 @@ const menuCategoryListData = {
     component: (
       <MenuCategoryList />
     ),
-    type: "",
+    type: "menu",
     description: "Displays a list of food categories.",
     reactComponent: "MenuCategoryList",
     reactComponentLibrary: "TacoComponents",

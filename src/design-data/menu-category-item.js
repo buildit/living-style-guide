@@ -9,7 +9,7 @@ const menuItemData = {
         reverseType={false}
       />
     ),
-    type: "",
+    type: "menu",
     description: 'Displays a single food category, such as "Drinks" or "Tacos".',
     reactComponent: "MenuCategoryItem",
     reactComponentLibrary: "TacoComponents",

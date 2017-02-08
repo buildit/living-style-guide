@@ -6,7 +6,7 @@ const menuItemData = {
     component: (
       <Nav />
     ),
-    type: "",
+    type: "navigation",
     description: "Navigation bar.",
     reactComponent: "Nav",
     reactComponentLibrary: "TacoComponents",

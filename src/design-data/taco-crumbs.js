@@ -8,7 +8,7 @@ const tacoCrumbsData = {
         viewName="Home"
       />
     ),
-    type: "",
+    type: "navigation",
     description: "A header component to be used on some views.",
     reactComponent: "TacoCrumbs",
     reactComponentLibrary: "TacoComponents",

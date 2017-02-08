@@ -12,7 +12,7 @@ const menuItemListData = {
         }}
       />
     ),
-    type: "",
+    type: "menu",
     description: "Displays a list of MenuItem components.",
     reactComponent: "MenuItemList",
     reactComponentLibrary: "TacoComponents",

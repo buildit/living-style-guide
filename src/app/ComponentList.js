@@ -1,13 +1,15 @@
 import React from 'react';
 import Component from './Component';
 
-const ComponentList = ({designData, filterByApproved}) => (
+const ComponentList = ({designData, filterByApproved, typeFilter = ''}) => (
   <div className="component-list">
     {
       designData
       .filter(component => {
-        if (filterByApproved) return component.approved
-        return true
+        if (!typeFilter) return true
+        if (component.type.toUpperCase() == typeFilter.toUpperCase()) {
+          return true
+        }
       })
       .map((component, index) => (
         <Component

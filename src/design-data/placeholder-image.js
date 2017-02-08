@@ -10,7 +10,7 @@ const placeholderImageData = {
         label="Taco and drink"
       />
     ),
-    type: "",
+    type: "development",
     description: "Displays a placeholder image of given size with an optional label. Of course, this is to be used for development only.",
     reactComponent: "PlaceholderImage",
     reactComponentLibrary: "TacoComponents",

@@ -8,7 +8,7 @@ export default class Main extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      filterByApproved: true
+      typeFilter: '',
     }
   }
 
@@ -20,21 +20,23 @@ export default class Main extends React.Component {
           <p className="style-guide description">An always-up-to-date catalog of the UI components used by Project Taco.</p>
         </header>
         <div className="style-guide filters">
-          <button
-            className="filter-button"
-            onClick={() => {
-              this.setState({
-                filterByApproved: !this.state.filterByApproved
-              })
+          <label>Component type: </label>
+          <input
+            type="text"
+            placeholder="navigation, menu, etc..."
+            value={this.state.typeFilter}
+            onChange={(event) => {
+                this.setState({
+                  typeFilter: event.target.value
+                })
             }}
-            >Filter</button>
-          <span>{ this.state.filterByApproved ? 'Filtering by approved' : 'No filter'}</span>
+          />
         </div>
 
         <div className="iphone6-container">
           <ComponentList
             designData={designData}
-            filterByApproved={this.state.filterByApproved}
+            typeFilter={this.state.typeFilter}
           />
         </div>
       </div>

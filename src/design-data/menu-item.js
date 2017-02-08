@@ -11,7 +11,7 @@ const menuItemData = {
         imageUrl="../assets/images/image-1.png"
       />
     ),
-    type: "",
+    type: "menu",
     description: "Displays a single item from the menu with the item price and the quantity the user has selected.",
     reactComponent: "MenuItem",
     reactComponentLibrary: "TacoComponents",

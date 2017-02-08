@@ -8,7 +8,7 @@ const quantityPickerData = {
         quantity={1}
       />
     ),
-    type: "",
+    type: "menu",
     description: "Used in the MenuItem component to add items to an order.",
     reactComponent: "QuantityPicker",
     reactComponentLibrary: "TacoComponents",
