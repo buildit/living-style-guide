@@ -10,6 +10,7 @@ import tacoCrumbsData from './taco-crumbs'
 import viewButtonPink from './button-large-pink'
 import viewButtonWhite from './button-large-white'
 import viewButtonSmall from './button-small'
+import viewLocationHeader from './pickup-location-header'
 
 const components = [
   navData,
@@ -22,6 +23,7 @@ const components = [
   quantityPickerData, // okay
   menuItemData, // Some styles coming through. Not all.
   menuItemListData, // not present
+  viewLocationHeader,
   placeHolderImageData, // not present
   // button, // Not yet added to taco-components library
 ]
