@@ -23,8 +23,8 @@ const components = [
   quantityPickerData, // okay
   menuItemData, // Some styles coming through. Not all.
   menuItemListData, // not present
-  viewLocationHeader,
   placeHolderImageData, // not present
+  viewLocationHeader,
 ]
 
 export default components
