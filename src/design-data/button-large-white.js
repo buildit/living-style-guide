@@ -4,7 +4,7 @@ import ButtonLargeWhite from 'taco-components/components/1-Atoms/ButtonLargeWhit
 const viewButtonPink = {
     name: "ButtonLargeWhite",
     component: (
-      <ButtonLargePink
+      <ButtonLargeWhite
         ButtonText="Order"
         ButtonLink="/"
       />
