@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonLargePink from 'taco-components/components/1-Atoms/ButtonLargePink';
 
 const viewButtonPink = {
-    name: "ButtonLargePink",
+    name: "Button Large Pink",
     component: (
       <ButtonLargePink
         ButtonText="New Order"

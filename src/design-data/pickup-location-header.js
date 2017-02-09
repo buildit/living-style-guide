@@ -2,7 +2,7 @@ import React from 'react'
 import PickUpLocationHeader from 'taco-components/components/1-Atoms/PickUpLocationHeader';
 
 const viewLocationHeader = {
-    name: "PickUpLocationHeader",
+    name: "PickUp Location Header",
     component: (
       <PickUpLocationHeader
           locationHeader="pick up location"

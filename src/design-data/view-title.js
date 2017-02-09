@@ -2,7 +2,7 @@ import React from 'react'
 import ViewTitle from 'taco-components/components/1-Atoms/ViewTitle';
 
 const viewTitleData = {
-    name: "ViewTitle",
+    name: "View Title",
     component: (
       <ViewTitle
         title="New Order"

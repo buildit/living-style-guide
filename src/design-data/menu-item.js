@@ -2,7 +2,7 @@ import React from 'react'
 import MenuItem from 'taco-components/components/2-Molecules/MenuItem';
 
 const menuItemData = {
-    name: "MenuItem",
+    name: "Menu Item",
     component: (
       <MenuItem
         name="Funny Taco Things"

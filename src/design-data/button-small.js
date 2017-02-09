@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonSmall from 'taco-components/components/1-Atoms/ButtonSmall';
 
 const viewButtonSmall = {
-    name: "ButtonSmall",
+    name: "Button Small",
     component: (
       <ButtonSmall
         ButtonText="Order"

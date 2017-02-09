@@ -2,7 +2,7 @@ import React from 'react'
 import MenuItemList from 'taco-components/components/3-Organisms/MenuItemList';
 
 const menuItemListData = {
-    name: "MenuItemList",
+    name: "Menu Item List",
     component: (
       <MenuItemList
         item={{

@@ -2,7 +2,7 @@ import React from 'react'
 import TacoCrumbs from 'taco-components/components/2-Molecules/TacoCrumbs';
 
 const tacoCrumbsData = {
-    name: "TacoCrumbs",
+    name: "Header Crumbs",
     component: (
       <TacoCrumbs
         viewName="Home"
