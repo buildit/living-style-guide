@@ -11,6 +11,7 @@ import viewButtonPink from './button-large-pink'
 import viewButtonWhite from './button-large-white'
 import viewButtonSmall from './button-small'
 import viewLocationHeader from './pickup-location-header'
+import viewOrderItem from './order-item'
 
 const components = [
   navData,
@@ -23,8 +24,8 @@ const components = [
   quantityPickerData, // okay
   menuItemData, // Some styles coming through. Not all.
   menuItemListData, // not present
-  placeHolderImageData, // not present
   viewLocationHeader,
+  viewOrderItem,
 ]
 
 export default components
